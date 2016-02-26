@@ -1,0 +1,30 @@
+{
+    "name": "rush/view-strategies",
+    "description": "Multi template engine driver for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leko",
+            "email": "leko.noor@gmail.com"
+        }
+    ],
+    "keywords": [
+        "rush",
+        "template engine",
+        "templating",
+        "templates",
+        "views",
+        "multiple",
+        "driver"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rush\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.4",
+        "league/plates": "^3.1"
+    }
+}
