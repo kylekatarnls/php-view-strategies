@@ -18,6 +18,13 @@
         "multiple",
         "driver"
     ],
+    "scripts": {
+        "test": [
+            "phpcbf --standard=PSR2 src",
+            "phpmd src text .phpmd.xml",
+            "phpunit -c test/phpunit.xml"
+        ]
+    },
     "autoload": {
         "psr-4": {
             "Rush\\": "src/"
@@ -26,5 +33,10 @@
     "require": {
         "php": "^5.4",
         "league/plates": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*",
+        "squizlabs/php_codesniffer": "2.*",
+        "phpmd/phpmd" : "2.2.2"
     }
 }
