@@ -27,7 +27,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Rush\\": "src/"
+            "Rush\\": "src/",
+            "Rush\\Test\\": "test/"
         }
     },
     "suggest": {

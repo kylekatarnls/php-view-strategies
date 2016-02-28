@@ -1,5 +1,6 @@
 <phpunit
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  bootstrap="../vendor/autoload.php"
   backupGlobals="false"
   backupStaticAttributes="false"
   convertErrorsToExceptions="true"
@@ -9,8 +10,7 @@
   stopOnFailure="false">
   <testsuites>
     <testsuite name="All">
-      <directory suffix=".php">./test</directory>
+      <directory suffix=".php">./</directory>
     </testsuite>
   </testsuites>
 </phpunit>
-
