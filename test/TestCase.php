@@ -22,4 +22,13 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
             ],
         ]);
     }
+
+    protected function getMethodReflection($class_name, $method_name)
+    {
+        $ref = new \ReflectionClass($class_name);
+        $method = $ref->getMethod($method_name);
+        $method->setAccessible(true);
+
+        return $method;
+    }
 }
