@@ -6,10 +6,10 @@ use Rush\View;
 
 abstract class TestCase extends \PHPUnit_Framework_TestCase
 {
-    public static function setUpBeforeClass()
+    public function setUp()
     {
         View::configure([
-            'base_path' => '',
+            'base_path' => __DIR__.'/templates',
             'strategies' => [
                 'dwoo'  => '\\Rush\\Strategy\\Dwoo',
                 'foil'  => '\\Rush\\Strategy\\FOIL',
