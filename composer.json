@@ -41,6 +41,7 @@
         "latte/latte": "see https://github.com/nette/latte",
         "smarty/smarty": "see https://github.com/smarty-php/smarty"
     },
+    "minimum-stability": "dev",
     "require": {
         "php": "^5.4"
     },
