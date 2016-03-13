@@ -122,7 +122,7 @@ class View
     private function getAbsolutePath($name)
     {
         if (strpos($name, '.') === false) {
-            $name .= self::$defaultExtension;
+            $name .= '.'.self::$defaultExtension;
         }
 
         $path = implode(DIRECTORY_SEPARATOR, [self::$basePath, $name]);
