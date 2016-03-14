@@ -1,5 +1,7 @@
 <?php
 
+// http://twig.sensiolabs.org/doc/api.html
+
 namespace Rush\Strategy;
 
 /**

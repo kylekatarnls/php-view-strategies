@@ -1,5 +1,7 @@
 <?php
 
+// http://www.smarty.net/docsv2/ja/caching.tpl
+
 namespace Rush\Strategy;
 
 /**

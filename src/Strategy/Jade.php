@@ -1,5 +1,7 @@
 <?php
 
+// https://github.com/kylekatarnls/jade-php#jade-options
+
 namespace Rush\Strategy;
 
 /**

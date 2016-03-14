@@ -1,5 +1,7 @@
 <?php
 
+// https://github.com/nette/latte/blob/1f733950b9d837aed086c7a8e1127df7e0659a0c/src/Latte/Engine.php#L350
+
 namespace Rush\Strategy;
 
 /**

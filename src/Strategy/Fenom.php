@@ -1,5 +1,7 @@
 <?php
 
+// https://github.com/fenom-template/fenom/blob/10c8109bb545afc6ab599aee273e6978f2789ae6/docs/en/configuration.md#template-cache
+
 namespace Rush\Strategy;
 
 /**
