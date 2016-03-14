@@ -1,4 +1,7 @@
 # php-view-strategies
+[![Latest Stable Version](https://poser.pugx.org/rush/view-strategies/v/stable)](https://packagist.org/packages/rush/view-strategies)
+[![License](https://poser.pugx.org/rush/view-strategies/license)](https://packagist.org/packages/rush/view-strategies)
+
 Multi template engine driver for PHP
 
 ## Installation
