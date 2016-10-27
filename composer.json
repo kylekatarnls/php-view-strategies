@@ -49,7 +49,7 @@
         "phpunit/phpunit": "4.8.*",
         "squizlabs/php_codesniffer": "2.*",
         "phpmd/phpmd" : "2.2.2",
-        "kylekatarnls/jade-php": "^1.6",
+        "pug-php/pug": "^2.4",
         "fenom/fenom": "^2.8",
         "foil/foil": "^0.6.4",
         "league/plates": "^3.1",
